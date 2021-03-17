@@ -1,13 +1,10 @@
 # create environment:
-# conda env create --file QCB.yml
+# conda env create --file conda_env_sat.yml
 # -----
 # update environment:
-# conda env update --file QCB.yml --prune
+# conda env update --file conda_env_sat.yml --prune
 # -----
 # Insert additional requirements at the bottom.
-# Rise, jupyter_contrib_nbextensions, xlrd, plotly
-# are not strictly necessary for this project and
-# can be omitted.
 # -----
 name: SAT
 channels:
